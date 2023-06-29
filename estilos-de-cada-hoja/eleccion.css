@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+/*todo el inicio para que interatue*/
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #770606;
+    padding: 7px 20px 4px 20px;
+    height: 70px;
+}
+
+
+#header a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+#header a:hover {
+    color: aqua;
+
+}
+
+#logo {
+    color: white;
+}
+
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.comedera.com/wp-content/uploads/2021/03/mujer-cocinando.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+
+
+
+/*parte para que elija que tipo de comida quiere cocinar*/
+
+.titulo{
+    text-align: center;
+    margin-top: 70px;
+    color: white;
+}
+
+#todo{
+    display: flex;
+    margin:0px 110px;
+    margin-top: 100px;
+}
+
+
+
+.card{
+    margin: 30px;
+    background-color: rgb(119, 3, 3,.5);
+    color: white;
+}
+
+
+#header{}
+
+.navbar bg-body-tertiary{
+    background-color: #770606;
+}
+
